@@ -49,4 +49,6 @@ class OrderGl extends Model
     {
         return $this->belongsTo('OrderCat', 'category_id', 'id', [], 'LEFT')->setEagerlyType(0);
     }
+
+
 }

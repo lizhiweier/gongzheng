@@ -129,6 +129,7 @@ class Admin extends Backend
                 $params['salt'] = Random::alnum();
                 $params['password'] = md5(md5($params['password']) . $params['salt']);
                 $params['avatar'] = '/assets/img/avatar.png'; //设置新管理员默认头像。
+
                 $result = $this->model->validate('Admin.add')->save($params);
                 if ($result === false) {
                     $this->error($this->model->getError());
@@ -174,11 +175,12 @@ class Admin extends Backend
                 } else {
                     unset($params['password'], $params['salt']);
                 }
-                //这里需要针对username和email做唯一验证
+                //这里需要针对username，email，手机号做唯一验证
                 $adminValidate = \think\Loader::validate('Admin');
                 $adminValidate->rule([
                     'username' => 'require|regex:\w{3,12}|unique:admin,username,' . $row->id,
                     'email'    => 'require|email|unique:admin,email,' . $row->id,
+                    'phone'    => 'require|phone|unique:admin,phone,' . $row->id,
                     'password' => 'regex:\S{32}',
                 ]);
                 $result = $row->validate('Admin.edit')->save($params);

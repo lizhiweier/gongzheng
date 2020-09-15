@@ -1,35 +1,198 @@
 <div class="panel panel-default panel-intro">
     {:build_heading()}
+<style>
+    .hover {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: default;
+    }
+
+    .hover .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    .hover img {
+        display: block;
+        position: relative;
+    }
+
+    .hover h2 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 17px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .hover button.info {
+        display: inline-block;
+        text-decoration: none;
+        padding: 7px 14px;
+        text-transform: uppercase;
+        color: #fff;
+        border: 1px solid #fff;
+        margin: 50px 0 0 0;
+        border-radius: 0px;
+        background-color: transparent;
+    }
+
+    .hover button.info:hover {
+        box-shadow: 0 0 5px #fff;
+    }
+
+    /* styling to remove box shadow and border from buttons for last few effects */
+
+    .hover button.nullbutton {
+        border: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .hover button.nullbutton:hover {
+        box-shadow: none;
+    }
+
+    /* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+    .modal-open .modal, button:focus {
+        outline:none!important
+    }
+
+    /* styling so when hovering over a div that opens a modal the cursor changes to a pointer */
+    .point {
+        cursor: pointer;
+    }
+
+    /* effect 13 */
+
+
+    .ehover13
+    {
+        height:164px;
+    }
+
+    .ehover13 img
+    {
+        transition: all 0.35s;
+        width: 100px;
+        height: 100px;
+    }
+
+    .ehover13 a
+    {
+        color:#515a6e;
+    }
+
+    .ehover13:hover img
+    {
+        filter: brightness(0.6);
+        -webkit-filter: brightness(0.6);
+    }
+
+    .ehover13 .overlay {
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        top: 10%;
+        border-bottom: 1px solid #FFF;
+        border-top: 1px solid #FFF;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(0,1);
+        transform: scale(0,1);
+    }
+
+
+
+    .ehover13:hover .overlay {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+    }
+
+
+    .ehover13 button {
+        color:	#FFF;
+        padding: 1em 0;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+
+    .ehover13 h2 {
+        background-color: transparent;
+        color:	#FFF;
+        padding: 1em 0;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+
+
+
+    .ehover13:hover button, .ehover13:hover h2{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    .panel-body{
+        color: #515a6e;
+    }
+
+    .panel-body h4{
+        margin-bottom: 25px;
+    }
+
+    .panel-body h4 i{
+        background: #cb3246;
+        display: inline-block;
+        height: 15px;
+        margin-right: 6px;
+        position: relative;
+        top: 2px;
+        width: 2px;
+    }
+
+
+</style>
+
 
     <div class="panel-body">
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="one">
-                <div class="widget-body no-padding">
-                    <div id="toolbar" class="toolbar">
-                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="{:__('Refresh')}" ><i class="fa fa-refresh"></i> </a>
-                        <a href="javascript:;" class="btn btn-success btn-add {:$auth->check('order/order_civil/add')?'':'hide'}" title="{:__('Add')}" ><i class="fa fa-plus"></i> {:__('Add')}</a>
-                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled {:$auth->check('order/order_civil/edit')?'':'hide'}" title="{:__('Edit')}" ><i class="fa fa-pencil"></i> {:__('Edit')}</a>
-                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled {:$auth->check('order/order_civil/del')?'':'hide'}" title="{:__('Delete')}" ><i class="fa fa-trash"></i> {:__('Delete')}</a>
-                        <a href="javascript:;" class="btn btn-danger btn-import {:$auth->check('order/order_civil/import')?'':'hide'}" title="{:__('Import')}" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> {:__('Import')}</a>
+        <h4>
+            <i class="soild"></i>
+            公证事项选择
+        </h4>
+        <div class="row">
 
-                        <div class="dropdown btn-group {:$auth->check('order/order_civil/multi')?'':'hide'}">
-                            <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> {:__('More')}</a>
-                            <ul class="dropdown-menu text-left" role="menu">
-                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=normal"><i class="fa fa-eye"></i> {:__('Set to normal')}</a></li>
-                                <li><a class="btn btn-link btn-multi btn-disabled disabled" href="javascript:;" data-params="status=hidden"><i class="fa fa-eye-slash"></i> {:__('Set to hidden')}</a></li>
-                            </ul>
-                        </div>
-
-                        
-                    </div>
-                    <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
-                           data-operate-edit="{:$auth->check('order/order_civil/edit')}" 
-                           data-operate-del="{:$auth->check('order/order_civil/del')}" 
-                           width="100%">
-                    </table>
+            {foreach name="OrderGlInfo" item="v" key="k"}
+            <div class="col-xs-6 col-md-2">
+                <div class="hover ehover13">
+                    <a href="#" class="thumbnail">
+                        <img src="{$v.gzimage}" alt="{$v.name}">
+                        <p>{$v.name}</p>
+                    </a>
                 </div>
+
             </div>
+            {/foreach}
 
         </div>
+
     </div>
 </div>

@@ -19001,3 +19001,3803 @@
 [ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
 [ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000465s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:39:20+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_civil?addtabs=1
+[运行时间：0.301642s] [吞吐率：3.32req/s] [内存消耗：3,448.27kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002423s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000392s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_civil',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_civil?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001056s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_civil.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\order\order_civil\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000359s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:39:21+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=order.order_civil&v=1599925160
+[运行时间：0.262038s] [吞吐率：3.82req/s] [内存消耗：3,382.34kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001917s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000244s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_civil?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order.order_civil',
+  'v' => '1599925160',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000900s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_civil.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000174s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:39:34+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/foreign?addtabs=1
+[运行时间：0.030573s] [吞吐率：32.71req/s] [内存消耗：1,929.17kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002106s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000280s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'foreign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/foreign?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001324s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:39:56+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321881
+[运行时间：0.303580s] [吞吐率：3.29req/s] [内存消耗：3,586.16kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002746s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321881',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000892s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000447s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:07+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/118
+[运行时间：0.461922s] [吞吐率：2.16req/s] [内存消耗：3,527.48kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001818s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000242s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '118',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000865s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076731s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:08+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.472451s] [吞吐率：2.12req/s] [内存消耗：3,496.78kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002746s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000375s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001347s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.075627s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:08+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321882
+[运行时间：0.313384s] [吞吐率：3.19req/s] [内存消耗：3,579.78kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001940s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000294s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321882',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000971s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000317s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:12+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/124
+[运行时间：0.418473s] [吞吐率：2.39req/s] [内存消耗：3,521.23kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001872s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000249s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '124',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001024s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.090078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:12+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.475358s] [吞吐率：2.10req/s] [内存消耗：3,493.26kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002124s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000309s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001027s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.082762s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:13+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321883
+[运行时间：0.296420s] [吞吐率：3.37req/s] [内存消耗：3,573.43kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002027s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000226s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321883',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001154s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000391s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:16+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/130
+[运行时间：0.413028s] [吞吐率：2.42req/s] [内存消耗：3,515.02kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001973s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000323s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '130',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000871s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.079639s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:17+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.485269s] [吞吐率：2.06req/s] [内存消耗：3,489.73kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002825s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000295s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001039s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.077515s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:17+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321884
+[运行时间：0.304227s] [吞吐率：3.29req/s] [内存消耗：3,563.09kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001947s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000251s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321884',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001022s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000298s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:23+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/136
+[运行时间：0.402102s] [吞吐率：2.49req/s] [内存消耗：3,508.82kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002184s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000250s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '136',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000883s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076968s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:23+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.515304s] [吞吐率：1.94req/s] [内存消耗：3,486.15kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002482s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000417s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001149s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.078210s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:24+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321885
+[运行时间：0.303364s] [吞吐率：3.30req/s] [内存消耗：3,556.64kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001977s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000321s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321885',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000912s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000410s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:31+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/142
+[运行时间：0.410188s] [吞吐率：2.44req/s] [内存消耗：3,502.52kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002277s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000256s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '142',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000846s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.077415s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:32+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.461747s] [吞吐率：2.17req/s] [内存消耗：3,478.59kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002196s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000545s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001054s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.070990s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:32+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321886
+[运行时间：0.299708s] [吞吐率：3.34req/s] [内存消耗：3,542.12kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002475s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000278s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321886',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000887s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000587s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:47+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/auth/rule/del/ids/148
+[运行时间：0.402881s] [吞吐率：2.48req/s] [内存消耗：3,488.26kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002239s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000242s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '26',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'del',
+  'ids' => '148',
+  'params' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000870s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->del[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.073297s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:48+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.481539s] [吞吐率：2.08req/s] [内存消耗：3,475.05kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002714s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000359s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000947s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076861s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:48+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321887
+[运行时间：0.279840s] [吞吐率：3.57req/s] [内存消耗：3,535.79kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002233s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000326s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321887',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001027s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:59+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/ajax/weigh
+[运行时间：0.582526s] [吞吐率：1.72req/s] [内存消耗：3,330.63kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002195s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000264s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'weigh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'content-length' => '182',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2,6,7,8,3,5,9,10,11,12,4,66,67,73,79,85,117,160,166,172,154,178',
+  'changeid' => '154',
+  'pid' => '117',
+  'field' => 'weigh',
+  'orderway' => 'desc',
+  'table' => 'auth_rule',
+  'pk' => 'id',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000996s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->weigh[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076224s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:40:59+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.526332s] [吞吐率：1.90req/s] [内存消耗：3,482.16kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002849s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000464s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001501s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.078847s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:00+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/auth/rule/index?sort=weigh&order=desc&_=1599923321888
+[运行时间：0.320610s] [吞吐率：3.12req/s] [内存消耗：3,535.79kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002932s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000374s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/auth/rule?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1599923321888',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000951s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ J:\code\gongzheng\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000495s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:05+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_certification/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599922915858
+[运行时间：0.358118s] [吞吐率：2.79req/s] [内存消耗：3,326.02kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001735s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000263s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_certification',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_certification?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599922915858',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000911s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_certification.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000751s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:08+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1
+[运行时间：0.511694s] [吞吐率：1.95req/s] [内存消耗：3,429.63kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001978s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000222s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000833s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\order\order_foreign\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000522s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:08+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1
+[运行时间：0.276934s] [吞吐率：3.61req/s] [内存消耗：3,429.41kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001829s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000247s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_real',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000885s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\order\order_real\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000291s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:08+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=order.order_real&v=1599925268
+[运行时间：0.243715s] [吞吐率：4.10req/s] [内存消耗：3,359.55kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001865s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order.order_real',
+  'v' => '1599925268',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001270s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000195s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:09+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_real/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268557
+[运行时间：0.353736s] [吞吐率：2.83req/s] [内存消耗：3,325.50kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002045s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000239s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_real',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268557',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000876s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000167s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:09+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=order.order_foreign&v=1599925267
+[运行时间：0.245856s] [吞吐率：4.07req/s] [内存消耗：3,359.60kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002130s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000340s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order.order_foreign',
+  'v' => '1599925267',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001026s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000226s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:09+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_real/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268558
+[运行时间：0.437763s] [吞吐率：2.28req/s] [内存消耗：3,325.50kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001969s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_real',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268558',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001213s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:10+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268241
+[运行时间：0.481646s] [吞吐率：2.08req/s] [内存消耗：3,325.69kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002323s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000440s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268241',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001022s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000178s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:10+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_translation?addtabs=1
+[运行时间：0.624592s] [吞吐率：1.60req/s] [内存消耗：3,430.24kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000100s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006422s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000392s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_translation',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_translation?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001104s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_translation.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\order\order_translation\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000212s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:10+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_certification/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599922915859
+[运行时间：0.369852s] [吞吐率：2.70req/s] [内存消耗：3,326.02kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002003s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_certification',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_certification?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599922915859',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001032s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_certification.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000380s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:11+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=order.order_translation&v=1599925269
+[运行时间：0.470190s] [吞吐率：2.13req/s] [内存消耗：3,359.63kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001805s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000825s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_translation?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order.order_translation',
+  'v' => '1599925269',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001153s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_translation.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000409s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:11+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268242
+[运行时间：0.609281s] [吞吐率：1.64req/s] [内存消耗：3,325.69kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002580s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000490s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268242',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001903s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000238s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:11+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_translation/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925270553
+[运行时间：0.478788s] [吞吐率：2.09req/s] [内存消耗：3,325.84kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001988s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_translation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_translation?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925270553',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000915s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_translation.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000252s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:12+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599903685692
+[运行时间：0.774608s] [吞吐率：1.29req/s] [内存消耗：3,376.77kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.029717s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000257s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599903685692',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001167s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000392s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:12+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1
+[运行时间：0.287487s] [吞吐率：3.48req/s] [内存消耗：3,381.66kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001983s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000223s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001265s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->add[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\command\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+  6 => 'tableList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000394s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:13+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=command&v=1599925272
+[运行时间：0.245094s] [吞吐率：4.08req/s] [内存消耗：3,359.88kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001802s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'command',
+  'v' => '1599925272',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000913s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000164s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:13+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.383293s] [吞吐率：2.61req/s] [内存消耗：3,320.58kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002711s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000336s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '14',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_admin',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001606s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.084710s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:17+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.344524s] [吞吐率：2.90req/s] [内存消耗：3,320.59kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002009s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000225s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '17',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_order_gl',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000828s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.071651s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:27+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.680629s] [吞吐率：1.47req/s] [内存消耗：3,320.58kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.300922s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '14',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_admin',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002371s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.074866s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：1.006437s] [吞吐率：0.99req/s] [内存消耗：3,320.58kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.285747s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000825s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '14',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_admin',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002558s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.082635s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.667945s] [吞吐率：1.50req/s] [内存消耗：3,320.58kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002185s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000265s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '14',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_admin',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003937s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076039s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.640757s] [吞吐率：1.56req/s] [内存消耗：3,320.58kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002087s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000240s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '14',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_admin',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000854s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.073324s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:32+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.372665s] [吞吐率：2.68req/s] [内存消耗：3,320.61kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001853s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_order_cat',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001192s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.077488s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:33+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_field_list
+[运行时间：0.342789s] [吞吐率：2.92req/s] [内存消耗：3,320.61kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002171s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000288s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_field_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'table' => 'gz_order_cat',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001047s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_field_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.070379s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:38+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/command/action/command
+[运行时间：0.321270s] [吞吐率：3.11req/s] [内存消耗：3,329.62kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001803s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000255s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '544',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'commandtype' => 'crud',
+  'isrelation' => '1',
+  'local' => '1',
+  'delete' => '0',
+  'force' => '1',
+  'table' => 'gz_order_gl',
+  'controller' => 'orderGl',
+  'model' => '',
+  'relation' => 
+  array (
+    2 => 
+    array (
+      'relation' => 'gz_order_cat',
+      'relationmode' => 'belongsto',
+      'relationforeignkey' => 'category_id',
+      'relationprimarykey' => 'id',
+      'relationfields' => 
+      array (
+        0 => 'name',
+      ),
+    ),
+  ),
+  'setcheckboxsuffix' => '',
+  'enumradiosuffix' => '',
+  'imagefield' => '',
+  'filefield' => '',
+  'intdatesuffix' => '',
+  'switchsuffix' => '',
+  'citysuffix' => '',
+  'selectpagesuffix' => '',
+  'selectpagessuffix' => '',
+  'ignorefields' => '',
+  'sortfield' => '',
+  'editorsuffix' => '',
+  'headingfilterfield' => '',
+  'action' => 'command',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000902s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->command[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076232s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:41+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/command/action/execute
+[运行时间：0.734742s] [吞吐率：1.36req/s] [内存消耗：3,866.93kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002062s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000217s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '544',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'commandtype' => 'crud',
+  'isrelation' => '1',
+  'local' => '1',
+  'delete' => '0',
+  'force' => '1',
+  'table' => 'gz_order_gl',
+  'controller' => 'orderGl',
+  'model' => '',
+  'relation' => 
+  array (
+    2 => 
+    array (
+      'relation' => 'gz_order_cat',
+      'relationmode' => 'belongsto',
+      'relationforeignkey' => 'category_id',
+      'relationprimarykey' => 'id',
+      'relationfields' => 
+      array (
+        0 => 'name',
+      ),
+    ),
+  ),
+  'setcheckboxsuffix' => '',
+  'enumradiosuffix' => '',
+  'imagefield' => '',
+  'filefield' => '',
+  'intdatesuffix' => '',
+  'switchsuffix' => '',
+  'citysuffix' => '',
+  'selectpagesuffix' => '',
+  'selectpagessuffix' => '',
+  'ignorefields' => '',
+  'sortfield' => '',
+  'editorsuffix' => '',
+  'headingfilterfield' => '',
+  'action' => 'execute',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000859s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->command[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.074813s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:41+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599903685693
+[运行时间：0.370148s] [吞吐率：2.70req/s] [内存消耗：3,377.17kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002236s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000326s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599903685693',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001179s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000219s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:42+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.683899s] [吞吐率：1.46req/s] [内存消耗：3,482.16kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002211s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000217s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000824s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.076551s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:42+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599903685694
+[运行时间：0.341692s] [吞吐率：2.93req/s] [内存消耗：3,377.17kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001852s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000251s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599903685694',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:45+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_controller_list
+[运行时间：0.309093s] [吞吐率：3.24req/s] [内存消耗：3,321.05kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002163s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_controller_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '171',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'name',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000845s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_controller_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.073245s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:52+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_controller_list
+[运行时间：0.384689s] [吞吐率：2.60req/s] [内存消耗：3,321.14kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003344s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000339s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_controller_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '181',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => 'order',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'name',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => 'order',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001193s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_controller_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.088622s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:55+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/get_controller_list
+[运行时间：0.381435s] [吞吐率：2.62req/s] [内存消耗：3,321.05kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001917s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000240s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'get_controller_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '171',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'name',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000854s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->get_controller_list[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.130997s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:56+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/command/action/command
+[运行时间：0.314356s] [吞吐率：3.18req/s] [内存消耗：3,321.80kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001794s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000236s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '105',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'commandtype' => 'menu',
+  'allcontroller' => '0',
+  'delete' => '0',
+  'force' => '1',
+  'controllerfile_text' => '',
+  'controllerfile' => 'OrderGl.php',
+  'action' => 'command',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000842s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->command[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.075508s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:58+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/command/command/action/execute
+[运行时间：0.919974s] [吞吐率：1.09req/s] [内存消耗：3,641.34kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002022s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command/add?dialog=1',
+  'connection' => 'close',
+  'content-length' => '105',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'commandtype' => 'menu',
+  'allcontroller' => '0',
+  'delete' => '0',
+  'force' => '1',
+  'controllerfile_text' => '',
+  'controllerfile' => 'OrderGl.php',
+  'action' => 'execute',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001188s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\admin\controller\Command->command[ J:\code\gongzheng\application\admin\controller\Command.php ]
+[ info ] [ LANG ] J:\code\gongzheng\application\admin\lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.074537s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:58+08:00 ] 127.0.0.1 POST www.gongzheng.cc/vPbIuaepLm.php/index/index
+[运行时间：0.412185s] [吞吐率：2.43req/s] [内存消耗：3,478.60kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001918s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000258s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?ref=addtabs',
+  'connection' => 'close',
+  'content-length' => '18',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000854s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ J:\code\gongzheng\application\admin\controller\Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.071889s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:59+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599903685695
+[运行时间：0.745441s] [吞吐率：1.34req/s] [内存消耗：3,379.41kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004764s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000381s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599903685695',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000938s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:41:59+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599903685696
+[运行时间：0.596119s] [吞吐率：1.68req/s] [内存消耗：3,379.41kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002347s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000242s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'command',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/command?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599903685696',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000901s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/command.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000162s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:00+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order_gl?addtabs=1
+[运行时间：0.294532s] [吞吐率：3.40req/s] [内存消耗：3,439.36kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002007s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000237s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order_gl',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order_gl?ref=addtabs',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order_gl.php
+[ info ] [ RUN ] app\admin\controller\OrderGl->index[ J:\code\gongzheng\application\admin\controller\OrderGl.php ]
+[ info ] [ VIEW ] J:\code\gongzheng\public/../application/admin\view\order_gl\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000381s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:00+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/ajax/lang?callback=define&controllername=order_gl&v=1599925320
+[运行时间：0.248687s] [吞吐率：4.02req/s] [内存消耗：3,362.21kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002163s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order_gl?addtabs=1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order_gl',
+  'v' => '1599925320',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000823s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ J:\code\gongzheng\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order_gl.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000825s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:01+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order_gl/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925320601
+[运行时间：0.369663s] [吞吐率：2.71req/s] [内存消耗：3,415.95kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001938s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000288s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order_gl',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order_gl?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'weigh',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925320601',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order_gl.php
+[ info ] [ RUN ] app\admin\controller\OrderGl->index[ J:\code\gongzheng\application\admin\controller\OrderGl.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000161s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:08+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268243
+[运行时间：0.362001s] [吞吐率：2.76req/s] [内存消耗：3,327.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002244s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000334s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268243',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000948s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000753s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:09+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_real/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268559
+[运行时间：0.336332s] [吞吐率：2.97req/s] [内存消耗：3,327.78kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002132s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000299s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_real',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268559',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000965s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000215s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:09+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268244
+[运行时间：0.351950s] [吞吐率：2.84req/s] [内存消耗：3,327.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002024s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000362s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268244',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000943s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:12+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268245
+[运行时间：0.340198s] [吞吐率：2.94req/s] [内存消耗：3,327.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001884s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000283s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268245',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000882s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000167s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:13+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_real/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268560
+[运行时间：0.342404s] [吞吐率：2.92req/s] [内存消耗：3,327.78kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001719s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_real',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_real?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268560',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001074s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_real.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000197s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:13+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268246
+[运行时间：0.339228s] [吞吐率：2.95req/s] [内存消耗：3,327.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002402s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000304s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268246',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000938s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000260s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:14+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_certification/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599922915860
+[运行时间：0.356006s] [吞吐率：2.81req/s] [内存消耗：3,328.30kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002347s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000270s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_certification',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_certification?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599922915860',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001035s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_certification.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:15+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign/index?addtabs=1&sort=Id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925268247
+[运行时间：0.350782s] [吞吐率：2.85req/s] [内存消耗：3,327.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001982s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000235s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order_foreign',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order/order_foreign?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'Id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925268247',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001062s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order/order_foreign.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ J:\code\gongzheng\application\admin\library\traits\Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000246s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-12T23:42:20+08:00 ] 127.0.0.1 GET www.gongzheng.cc/vPbIuaepLm.php/order_gl/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599925320602
+[运行时间：0.396528s] [吞吐率：2.52req/s] [内存消耗：3,415.95kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002265s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000386s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order_gl',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=rb81ab2jpma4kbj5h72sukbi7k; keeplogin=1%7C86400%7C1599990035%7C8463fe8e30ad1c3dabf3b3e1efd58f79',
+  'referer' => 'http://www.gongzheng.cc/vPbIuaepLm.php/order_gl?addtabs=1',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'weigh',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1599925320602',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001383s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/admin/lang/zh-cn/order_gl.php
+[ info ] [ RUN ] app\admin\controller\OrderGl->index[ J:\code\gongzheng\application\admin\controller\OrderGl.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
