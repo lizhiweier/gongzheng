@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"J:\code\gongzheng\public/../application/admin\view\order\order_civil\index.html";i:1600134010;s:60:"J:\code\gongzheng\application\admin\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\admin\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\admin\view\common\script.html";i:1588765311;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"J:\code\gongzheng\public/../application/admin\view\order\order_civil\index.html";i:1600323654;s:60:"J:\code\gongzheng\application\admin\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\admin\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\admin\view\common\script.html";i:1588765311;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -235,7 +235,7 @@
             <?php if(is_array($OrderGlInfo) || $OrderGlInfo instanceof \think\Collection || $OrderGlInfo instanceof \think\Paginator): if( count($OrderGlInfo)==0 ) : echo "" ;else: foreach($OrderGlInfo as $k=>$v): ?>
             <div class="col-xs-6 col-md-2">
                 <div class="hover ehover13">
-                    <a href="#" class="thumbnail">
+                    <a href="<?php echo url('dingdan/order/certiInfo',['gid'=>$v['id']]); ?>" class="thumbnail">
                         <img src="<?php echo $v['gzimage']; ?>" alt="<?php echo $v['name']; ?>">
                         <p><?php echo $v['name']; ?></p>
                     </a>
@@ -247,7 +247,7 @@
         </div>
 
     </div>
-</div>
+
 
                             </div>
                         </div>

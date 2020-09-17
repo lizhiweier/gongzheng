@@ -1,0 +1,117 @@
+<style>
+    #step1{
+        display:block;
+    }
+
+    #step2{
+        display:none;
+    }
+
+    .panel-body{
+        color: #515a6e;
+        background-color:#fff;
+    }
+
+    .panel-body h4{
+        margin-bottom: 25px;
+    }
+
+    .panel-body h4 i{
+        background: #cb3246;
+        display: inline-block;
+        height: 15px;
+        margin-right: 6px;
+        position: relative;
+        top: 2px;
+        width: 2px;
+    }
+
+    .panel-body .row .form-group .is-required::before{
+        color: #f56c6c;
+        content: "*";
+        margin-right: 4px;
+    }
+    .panel-body .row .layer-footer{
+        border-top: 1px solid #CCCCCC;
+        padding-top:20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .form-group{
+        padding-bottom: 20px;
+    }
+</style>
+<div id="step1" class="panel-body">
+    <h4>
+        <i class="soild"></i>
+        联系人信息填写
+    </h4>
+    <div class="row">
+        <div>
+            <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4 is-required">联系人姓名:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$admininfo.realname|htmlentities}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4 is-required">手机号码:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <input id="c-mobile" data-rule="required" class="form-control" name="row[mobile]" type="text" value="{$admininfo.phone|htmlentities}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4 is-required">电子邮箱:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <input id="c-email" data-rule="required" class="form-control" name="row[email]" type="text" value="{$admininfo.email|htmlentities}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4">邮寄地址:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <input id="c-address" data-rule="required" class="form-control" name="row[address]" type="text" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4">订单备注:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <input id="c-remark" data-rule="required" class="form-control" name="row[remark]" type="text" value="">
+                    </div>
+                </div>
+                <div class="form-group layer-footer">
+                    <!--<label class="control-label col-xs-12 col-sm-6"></label>
+                    <div class="col-xs-12 col-sm-5">
+                        <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                        <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+                    </div>-->
+                </div>
+            </form>
+            <button type="button" class="btn btn-success" onclick="getnext('step2')">下一步</button>
+        </div>
+    </div>
+</div>
+<div id="step2" class="panel-body" style="height: 500px;border:1px solid #ccc">
+    <h4>
+        <i class="soild"></i>
+        请选择付款方式
+    </h4>
+    <button type="button" class="btn btn-primary" onclick="getnext('step1')">上一步</button>
+</div>
+<script>
+    //下一步上一步js逻辑
+    function getnext(i) {
+        alert(i);
+        var sz = new Array("step1", "step2");
+        for (var j = 0; j < sz.length; j++) {
+            if (i == sz[j]) {
+                document.getElementById(i).style.display = "block";
+            } else {
+                document.getElementById(sz[j]).style.display = "none";
+            }
+        }
+    }
+
+</script>

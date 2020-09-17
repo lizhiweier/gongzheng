@@ -5,12 +5,12 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'order/certification/index' + location.search,
-                    add_url: 'order/certification/add',
-                    edit_url: 'order/certification/edit',
-                    del_url: 'order/certification/del',
-                    multi_url: 'order/certification/multi',
-                    table: 'order_certification',
+                    index_url: 'beiyong/contact/index' + location.search,
+                    add_url: 'beiyong/contact/add',
+                    edit_url: 'beiyong/contact/edit',
+                    del_url: 'beiyong/contact/del',
+                    multi_url: 'beiyong/contact/multi',
+                    table: 'order_contact',
                 }
             });
 
@@ -19,12 +19,18 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             // 初始化表格
             table.bootstrapTable({
                 url: $.fn.bootstrapTable.defaults.extend.index_url,
-                pk: 'Id',
-                sortName: 'Id',
+                pk: 'id',
+                sortName: 'id',
                 columns: [
                     [
                         {checkbox: true},
-                        {field: 'Id', title: __('Id')},
+                        {field: 'id', title: __('Id')},
+                        {field: 'name', title: __('Name')},
+                        {field: 'mobile', title: __('Mobile')},
+                        {field: 'email', title: __('Email')},
+                        {field: 'address', title: __('Address')},
+                        {field: 'remark', title: __('Remark')},
+                        {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

@@ -183,7 +183,7 @@
             {foreach name="OrderGlInfo" item="v" key="k"}
             <div class="col-xs-6 col-md-2">
                 <div class="hover ehover13">
-                    <a href="#" class="thumbnail">
+                    <a href="{:url('dingdan/order/certiInfo',['gid'=>$v.id])}" class="thumbnail">
                         <img src="{$v.gzimage}" alt="{$v.name}">
                         <p>{$v.name}</p>
                     </a>
@@ -195,4 +195,4 @@
         </div>
 
     </div>
-</div>
+
