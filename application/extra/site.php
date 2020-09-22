@@ -32,8 +32,9 @@ return array (
   'mail_type' => '1',
   'mail_smtp_host' => 'smtp.qq.com',
   'mail_smtp_port' => '465',
-  'mail_smtp_user' => '10000',
-  'mail_smtp_pass' => 'password',
+  'mail_smtp_user' => '2859087962@qq.com',
+  'mail_smtp_pass' => 'sfljjqsnlsndddja',
   'mail_verify_type' => '2',
-  'mail_from' => '10000@qq.com',
+  'mail_from' => '2859087962@qq.com',
+  'phone' => '422-222-2222',
 );

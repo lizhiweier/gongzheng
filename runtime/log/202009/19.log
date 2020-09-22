@@ -1,0 +1,1323 @@
+---------------------------------------------------------------
+[ 2020-09-19T22:54:31+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.260495s] [吞吐率：3.84req/s] [内存消耗：3,288.83kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001722s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001732s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001103s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:33+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.219840s] [吞吐率：4.55req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001913s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001923s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000318s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001227s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:37+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.295782s] [吞吐率：3.38req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004468s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004495s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000609s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002832s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:40+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.363641s] [吞吐率：2.75req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005099s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005129s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000693s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:43+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.267359s] [吞吐率：3.74req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003058s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003071s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000293s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001338s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:46+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.267132s] [吞吐率：3.74req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001956s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001978s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000426s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001485s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:48+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.226053s] [吞吐率：4.42req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001646s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001656s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000229s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000972s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:52+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.240839s] [吞吐率：4.15req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001616s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001626s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000213s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001022s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:55+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.262349s] [吞吐率：3.81req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002344s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002359s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000297s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001666s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:54:58+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.249982s] [吞吐率：4.00req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002227s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002240s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000314s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001430s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:01+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.278947s] [吞吐率：3.58req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002272s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002286s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000317s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001491s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:04+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.247934s] [吞吐率：4.03req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002241s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002258s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000426s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001367s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:07+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.244936s] [吞吐率：4.08req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001933s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001972s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000259s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:10+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.250902s] [吞吐率：3.99req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001883s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001895s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000224s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001012s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:13+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.245271s] [吞吐率：4.08req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002269s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002282s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000315s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001444s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:16+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.341276s] [吞吐率：2.93req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004994s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005023s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000691s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003258s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:19+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.338134s] [吞吐率：2.96req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002143s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002156s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000295s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001350s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:22+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.285939s] [吞吐率：3.50req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002679s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002694s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000376s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001713s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:25+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.267705s] [吞吐率：3.74req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002251s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002264s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000317s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001441s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.277843s] [吞吐率：3.60req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001958s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001976s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001548s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:31+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.312539s] [吞吐率：3.20req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004429s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004456s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000615s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002810s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:34+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.299460s] [吞吐率：3.34req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002746s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002762s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000383s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001752s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:37+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.241170s] [吞吐率：4.15req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001668s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001678s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001108s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:40+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.278422s] [吞吐率：3.59req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002248s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002262s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000317s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001440s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:43+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.263577s] [吞吐率：3.79req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001662s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001672s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001056s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:46+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.257552s] [吞吐率：3.88req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001627s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001636s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000256s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001011s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-19T22:55:49+08:00 ] 127.0.0.1 POST www.gongzheng.cc/addons/epay/api/wechat
+[运行时间：0.253438s] [吞吐率：3.95req/s] [内存消耗：3,288.88kb] [文件加载：169]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001698s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001711s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=87gei19eeigjfslnppffodvrvb',
+  'referer' => 'http://www.gongzheng.cc/addons/epay/api/wechat',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '329',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'body' => '微信公众号迁移公证(委托)支付',
+  'code_url' => 'weixin://wxpay/bizpayurl?pr=PqvJggh00',
+  'out_trade_no' => 'HBKJ202091921292746839',
+  'return_url' => '/vPbIuaepLm.php/dingdan/order/paysuccess',
+  'total_fee' => '1',
+  'sign' => 'f877e6ed35da2c814163191eb4963c87',
+  'addon' => 'epay',
+  'controller' => 'api',
+  'action' => 'wechat',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ J:\code\gongzheng\vendor\karsonzhang\fastadmin-addons\src\addons\Route.php ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/common\lang\zh-cn\addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001093s ]
+[ info ] [ LOG ] INIT File

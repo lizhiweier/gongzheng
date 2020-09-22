@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"J:\code\gongzheng\public/../application/admin\view\dingdan\order\certi_info.html";i:1600353035;s:60:"J:\code\gongzheng\application\admin\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\admin\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\admin\view\common\script.html";i:1588765311;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"J:\code\gongzheng\public/../application/admin\view\dingdan\order\certi_info.html";i:1600566816;s:60:"J:\code\gongzheng\application\admin\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\admin\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\admin\view\common\script.html";i:1588765311;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -93,68 +93,94 @@
     .form-group{
         padding-bottom: 20px;
     }
+
+    .btn-primary{
+        background-color: #cb3246;
+    }
+
+    .img-zhifu{
+        width:40px;
+    }
 </style>
-<div id="step1" class="panel-body">
+<div class="panel-body">
     <h4>
         <i class="soild"></i>
         联系人信息填写
     </h4>
     <div class="row">
-        <div>
             <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
                 <div class="form-group">
+                    <label class="control-label col-xs-12 col-sm-4 is-required redio-inline">请选择支付方式:</label>
+                    <div class="col-xs-12 col-sm-5">
+                        <label class="checkbox-inline">
+                        <input id="c-pay_method" data-rule="required" name="row[pay_method]" type="radio" value="wechat" checked>&nbsp;微信&nbsp;<img class="img-zhifu" src="/assets/img/weixin.png"/>
+                        </label>
+                        <label class="checkbox-inline">
+                        <input id="c-pay_method" data-rule="required" name="row[pay_method]" type="radio" value="alipay" disabled>&nbsp;支付宝&nbsp;<img class="img-zhifu" src="/assets/img/ali.png"/>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="control-label col-xs-12 col-sm-4 is-required">联系人姓名:</label>
                     <div class="col-xs-12 col-sm-5">
-                        <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="<?php echo htmlentities($admininfo['realname']); ?>">
+                        <input id="c-name" data-rule="required;chinese" class="form-control" name="row[cont_name]" type="text" value="<?php echo htmlentities($admininfo['realname']); ?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-xs-12 col-sm-4 is-required">手机号码:</label>
                     <div class="col-xs-12 col-sm-5">
-                        <input id="c-mobile" data-rule="required" class="form-control" name="row[mobile]" type="text" value="<?php echo htmlentities($admininfo['phone']); ?>">
+                        <input id="c-mobile" data-rule="required;mobile" class="form-control" name="row[mobile]" type="text" value="<?php echo htmlentities($admininfo['phone']); ?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-xs-12 col-sm-4 is-required">电子邮箱:</label>
                     <div class="col-xs-12 col-sm-5">
-                        <input id="c-email" data-rule="required" class="form-control" name="row[email]" type="text" value="<?php echo htmlentities($admininfo['email']); ?>">
+                        <input id="c-email" data-rule="required;email" class="form-control" name="row[email]" type="text" value="<?php echo htmlentities($admininfo['email']); ?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-xs-12 col-sm-4">邮寄地址:</label>
                     <div class="col-xs-12 col-sm-5">
-                        <input id="c-address" data-rule="required" class="form-control" name="row[address]" type="text" value="">
+                        <input id="c-address" data-rule="length(0~50)" class="form-control" name="row[address]" type="text" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-xs-12 col-sm-4">订单备注:</label>
                     <div class="col-xs-12 col-sm-5">
-                        <input id="c-remark" data-rule="required" class="form-control" name="row[remark]" type="text" value="">
+                        <input id="c-remark" data-rule="length(0~50)" class="form-control" name="row[remark]" type="text" value="">
                     </div>
                 </div>
+
+
                 <div class="form-group layer-footer">
-                    <!--<label class="control-label col-xs-12 col-sm-6"></label>
+                    <label class="control-label col-xs-12 col-sm-6"></label>
                     <div class="col-xs-12 col-sm-5">
-                        <button type="submit" class="btn btn-success btn-embossed disabled"><?php echo __('OK'); ?></button>
-                        <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>
-                    </div>-->
+                        <button type="submit" class="btn btn-primary btn-embossed">下一步</button>
+<!--                        <button type="reset" class="btn btn-default btn-embossed"><?php echo __('Reset'); ?></button>-->
+                    </div>
+<!--                    <label class="control-label col-xs-12 col-sm-6"></label>-->
+<!--                    <div class="col-xs-12 col-sm-5">-->
+<!--                        <button type="button" class="btn btn-primary" onclick="getnext('step2')">下一步</button>-->
+<!--                    </div>-->
                 </div>
             </form>
-            <button type="button" class="btn btn-success" onclick="getnext('step2')">下一步</button>
+            
         </div>
-    </div>
 </div>
-<div id="step2" class="panel-body" style="height: 500px;border:1px solid #ccc">
+<!--<div id="step2" class="panel-body" style="height: 500px;border:1px solid #ccc">
     <h4>
         <i class="soild"></i>
         请选择付款方式
     </h4>
-    <button type="button" class="btn btn-primary" onclick="getnext('step1')">上一步</button>
-</div>
+    <label class="control-label col-xs-12 col-sm-6"></label>
+    <div class="col-xs-12 col-sm-5">
+        <button type="button" class="btn btn-success" onclick="getnext('step1')">上一步</button>
+    </div>
+</div>-->
 <script>
     //下一步上一步js逻辑
-    function getnext(i) {
+   /* function getnext(i) {
         alert(i);
         var sz = new Array("step1", "step2");
         for (var j = 0; j < sz.length; j++) {
@@ -164,7 +190,7 @@
                 document.getElementById(sz[j]).style.display = "none";
             }
         }
-    }
+    }*/
 
 </script>
                             </div>
