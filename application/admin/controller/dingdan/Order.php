@@ -167,9 +167,9 @@ class Order extends Backend
         //订单标题
         $title = $orderGlInfo['name'].'支付';
         //回调链接
-        $notifyurl = $this->request->root(true).'/dingdan/order/notifywx/paytype/'.$type;
+        $notifyurl = $this->request->root(true).'/dingdan/order/notifywx/';
         //返回链接
-        $returnurl = $this->request->root(true).'/dingdan/order/paysuccess';
+        $returnurl = $this->request->root(true).'/dingdan/order/paysuccess/';
         $method = 'web';
         $params = [
             'amount'=>$amount,
@@ -239,7 +239,7 @@ class Order extends Backend
         $charsLen = count($chars) - 1;
         shuffle($chars);
         $output = "";
-        for ($i=0; $i<4; $i++)
+        for ($i=0; $i<6; $i++)
         {
             $output .= $chars[mt_rand(0, $charsLen)];
         }

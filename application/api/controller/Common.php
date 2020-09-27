@@ -13,7 +13,7 @@ use think\Config;
  */
 class Common extends Api
 {
-    protected $noNeedLogin = ['init'];
+    protected $noNeedLogin = ['init','upload'];
     protected $noNeedRight = '*';
 
     /**
@@ -121,7 +121,7 @@ class Common extends Api
                 'imageheight' => $imageheight,
                 'imagetype'   => $suffix,
                 'imageframes' => 0,
-                'mimetype'    => $fileInfo['type'],
+                'mimetype'     => $fileInfo['type'],
                 'url'         => $uploadDir . $splInfo->getSaveName(),
                 'uploadtime'  => time(),
                 'storage'     => 'local',

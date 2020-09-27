@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:66:"J:\code\gongzheng\public/../application/index\view\user\login.html";i:1588765311;s:60:"J:\code\gongzheng\application\index\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\index\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\index\view\common\script.html";i:1588765311;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:66:"J:\code\gongzheng\public/../application/index\view\user\login.html";i:1600919852;s:60:"J:\code\gongzheng\application\index\view\layout\default.html";i:1588765311;s:57:"J:\code\gongzheng\application\index\view\common\meta.html";i:1588765311;s:59:"J:\code\gongzheng\application\index\view\common\script.html";i:1588765311;}*/ ?>
 <!DOCTYPE html>
 <html>
     <head>

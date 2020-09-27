@@ -1,0 +1,185 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #515a6e;
+}
+
+body{
+    padding-top: 0px;
+}
+
+#step1{
+    display: block;
+}
+#step2{
+    display: none;
+}
+#step3{
+    display: none;
+}
+#step4{
+    display: none;
+}
+
+
+.n-default .n-left, .n-default .n-right {
+    margin-top: 10px;
+}
+
+.userContent{
+    background-color: #fff;
+    /*height: 500px;*/
+    width: 80%;
+}
+
+header{
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+header .header-content {
+    text-align: center;
+    padding: 150px 0 50px;
+    position: relative;
+}
+header .header-content .header-content-inner {
+    position: relative;
+    margin: 0 auto;
+}
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+header .row h4 i{
+    background: #cb3246;
+    display: inline-block;
+    height: 15px;
+    margin-right: 6px;
+    position: relative;
+    top: 2px;
+    width: 2px;
+}
+
+.content .panel-body .form-group .is-required::before{
+    color: #f56c6c;
+    content: "*";
+    margin-right: 4px;
+}
+
+.content .panel-body h4{
+    padding-bottom: 50px;
+}
+
+.content .panel-body h4 i{
+    background: #cb3246;
+    display: inline-block;
+    height: 15px;
+    margin-right: 6px;
+    position: relative;
+    top: 2px;
+    width: 2px;
+}
+
+.content .panel-body .layer-footer{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.content .panel-body .layer-footer .btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+.content .panel-body .layer-footer .btn-next{
+    background-color: #cb3246;
+
+
+}
+
+.content .panel-body .layer-footer .btn-up{
+    background-color: #ccc;
+
+
+}
+
+.content .panel-body .row .xian{
+    border-top: 1px solid #CCCCCC;;
+    margin-top: 3%;
+    padding-top: 10px;
+}
+
+.fileslistStyle {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.upfiles {
+    /*-ms-flex-direction: row;*/
+    /*-ms-flex-wrap: wrap;*/
+    /*-webkit-box-direction: normal;*/
+    /*-webkit-box-orient: horizontal;*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.upfiles .uploadMsg {
+    margin: 15px;
+}
+
+.ivu-upload-drag {
+    /*-webkit-transition: border-color .2s ease;*/
+    background: #fff;
+    border: 1px dashed #dcdee2;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+
+.ivu-upload input[type="text"] {
+    display: none;
+}
+
+.upfiles .a {
+    height: 100px;
+    line-height: 20px;
+    padding: 15px 3px;
+    text-align: center;
+    width: 100px;
+}
+
+.ivu-icon {
+    /*-moz-osx-font-smoothing: grayscale;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*display: inline-block;*/
+    font-family: Ionicons;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    /*speak: none;*/
+    text-rendering: auto;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.upfiles .input-group-addon > span {
+    display: block;
+}
+
+.ivu-upload-list {
+    margin-top: 8px;
+}
