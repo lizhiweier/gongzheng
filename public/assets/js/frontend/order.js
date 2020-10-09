@@ -1,20 +1,24 @@
 define(['jquery', 'bootstrap', 'frontend', 'form'], function ($, undefined, Frontend, Form) {
+/*    var validatoroptions = {
+        invalid: function (form, errors) {
+            $.each(errors, function (i, j) {
+                Layer.msg(j);
+            });
+        }
+    };*/
     var Controller = {
         orderform: function () {
-            Controller.api.bindevent();
-            //点击+上传文件
-            /*$(document).on("click", ".uploadBtn", function () {
-                $('.ivu-upload-input').click();
-            });*/
+            //本地验证未通过时提示
+            // $("#winfo-form").data("validator-options", validatoroptions);
+            Form.api.bindevent($("#winfo-form"), function (data, ret) {
+                setTimeout(function () {
+                    location.href = ret.url ? ret.url : "/";
+                }, 1000);
+            });
+
         },
         orderupload: function () {
-            Controller.api.bindevent();
-        },
-        api: {
-            bindevent: function () {
-                Form.api.bindevent($("form[role=form]"));
-                // Form.events.plupload($("form[role=form]"));
-            }
+            Form.api.bindevent($("#wupload-form"));
         }
     };
     return Controller;

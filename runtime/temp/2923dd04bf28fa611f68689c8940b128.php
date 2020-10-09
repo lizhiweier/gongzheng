@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:73:"I:\code\gongzheng\public/../application/index\view\order\orderupload.html";i:1602152793;s:59:"I:\code\gongzheng\application\index\view\common\script.html";i:1588765311;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -11,11 +12,11 @@
     <meta name="author" content="">
 
     <title>微信迁移公证详细信息填写</title>
-    <link rel="shortcut icon" href="__CDN__/assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
     <!-- Bootstrap Core CSS -->
-    <link href="__CDN__/assets/css/frontend{$Think.config.app_debug?'':'.min'}.css?v={$Think.config.site.version}" rel="stylesheet">
+    <link href="/assets/css/frontend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.css?v=<?php echo \think\Config::get('site.version'); ?>" rel="stylesheet">
     <!--    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
-    <link href="__CDN__/assets/css/orderform.css" rel="stylesheet">
+    <link href="/assets/css/orderform.css" rel="stylesheet">
 
 
 
@@ -30,7 +31,7 @@
     <![endif]-->
     <script type="text/javascript">
         var require = {
-            config: {$config|json_encode}
+            config: <?php echo json_encode($config); ?>
         };
     </script>
 </head>
@@ -42,10 +43,10 @@
         <header>
             <div class="row" style="margin-bottom: 20px;">
                 <div class="col-xs-12 col-sm-9">
-                    <h1>{$site.name}</h1>
+                    <h1><?php echo $site['name']; ?></h1>
                 </div>
                 <div class="col-xs-12 col-sm-3" style="margin-top: 20px;">
-                    有问题请联系： {$site.phone}
+                    有问题请联系： <?php echo $site['phone']; ?>
                 </div>
             </div>
             <div class="row">
@@ -60,12 +61,12 @@
         <div class="content">
             <!--                <div class="row">-->
             <form name="form" id="wupload-form" role="form" class="form-horizontal" data-toggle="validator" method="POST" action="">
-                {:token()}
+                <?php echo token(); ?>
                 <!--上传资料甲方-->
                 <div class="panel-body">
                     <h4><i></i>上传公证材料（甲方）</h4>
                     <!--<div class="form-group">
-&lt;!&ndash;                                        <label for="c-image" class="control-label col-xs-12 col-sm-2">{:__('Image')}:</label>&ndash;&gt;
+&lt;!&ndash;                                        <label for="c-image" class="control-label col-xs-12 col-sm-2"><?php echo __('Image'); ?>:</label>&ndash;&gt;
                         <div class="col-xs-12 col-sm-9 upfiles fileStyle" style="position: relative;">
                             <div class="input-group uploadMsg">
                                 <h5 style="margin: 5px 0px;"></h5>
@@ -223,7 +224,7 @@
                 <div class="panel-body">
                     <h4><i></i>上传公证材料（乙方）</h4>
                     <!--<div class="form-group">
-&lt;!&ndash;                                        <label for="c-image" class="control-label col-xs-12 col-sm-2">{:__('Image')}:</label>&ndash;&gt;
+&lt;!&ndash;                                        <label for="c-image" class="control-label col-xs-12 col-sm-2"><?php echo __('Image'); ?>:</label>&ndash;&gt;
                         <div class="col-xs-12 col-sm-9 upfiles fileStyle" style="position: relative;">
                             <div class="input-group uploadMsg">
                                 <h5 style="margin: 5px 0px;"></h5>
@@ -386,7 +387,7 @@
 
 <!-- Bootstrap Core JavaScript -->
 <!--<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-{include file="common/script" /}
+<script src="/assets/js/require<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js" data-main="/assets/js/require-frontend<?php echo \think\Config::get('app_debug')?'':'.min'; ?>.js?v=<?php echo htmlentities($site['version']); ?>"></script>
 </body>
 
 </html>

@@ -361,4 +361,40 @@ if (!function_exists('hsv2rgb')) {
             floor($b * 255)
         ];
     }
+
+    if (!function_exists('get_sex')) {
+        /**
+         *  根据身份证号码获取性别
+         *  author:xiaochuan
+         *  @param string $idcard    身份证号码
+         *  @return int $sex 性别 1男 2女 0未知
+         */
+        function get_sex($idcard)
+        {
+            if(empty($idcard)) return null;
+            $sexint = (int) substr($idcard, 16, 1);
+            return $sexint % 2 === 0 ? '女' : '男';
+        }
+    }
+
+    if (!function_exists('get_birthday')) {
+        /**
+         *  根据身份证号码获取生日
+         *  author:xiaochuan
+         *  @param string $idcard    身份证号码
+         *  @return $birthday
+         */
+        function get_birthday($idcard) {
+            if(empty($idcard)) return null;
+            $bir = substr($idcard, 6, 8);
+            $year = (int) substr($bir, 0, 4);
+            $month = (int) substr($bir, 4, 2);
+            $day = (int) substr($bir, 6, 2);
+            return $year . "-" . $month . "-" . $day;
+        }
+    }
+
+
+
+
 }

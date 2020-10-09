@@ -1,0 +1,3413 @@
+---------------------------------------------------------------
+[ 2020-10-04T00:10:45+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.182169s] [吞吐率：5.49req/s] [内存消耗：3,097.38kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002038s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002054s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000349s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001002s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000273s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:12:26+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.155313s] [吞吐率：6.44req/s] [内存消耗：3,175.44kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001705s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001719s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000295s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001559s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000240s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\index\validate\OrderForm::validate()[J:\code\gongzheng\application\index\controller\Order.php:63]
+---------------------------------------------------------------
+[ 2020-10-04T00:15:22+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.171800s] [吞吐率：5.82req/s] [内存消耗：3,175.44kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002150s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002168s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000339s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000255s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\index\validate\OrderForm::validate()[J:\code\gongzheng\application\index\controller\Order.php:63]
+---------------------------------------------------------------
+[ 2020-10-04T00:15:32+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.166731s] [吞吐率：6.00req/s] [内存消耗：3,097.39kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001997s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002014s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000244s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000873s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000237s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:15:51+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.162044s] [吞吐率：6.17req/s] [内存消耗：3,097.41kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001788s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001810s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001407s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000231s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:25:01+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.177807s] [吞吐率：5.62req/s] [内存消耗：3,184.45kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003115s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003136s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000413s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001084s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000392s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\index\validate\idcard_checksum18()[J:\code\gongzheng\application\index\validate\OrderForm.php:62]
+---------------------------------------------------------------
+[ 2020-10-04T00:25:34+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.194981s] [吞吐率：5.13req/s] [内存消耗：3,184.45kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002017s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002039s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000235s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000916s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000269s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\index\validate\idcard_verify_number()[J:\code\gongzheng\application\index\validate\OrderForm.php:114]
+---------------------------------------------------------------
+[ 2020-10-04T00:25:58+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.169202s] [吞吐率：5.91req/s] [内存消耗：3,106.37kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002820s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002843s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000368s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050544',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001508s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000236s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:26:16+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.169291s] [吞吐率：5.91req/s] [内存消耗：3,106.41kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001682s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001695s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000323s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '801',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '41052119910405051',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000949s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000220s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:26:34+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.164605s] [吞吐率：6.08req/s] [内存消耗：3,106.41kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001740s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001754s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199104050510',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000871s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000331s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:26:59+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.454729s] [吞吐率：2.20req/s] [内存消耗：3,106.37kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002061s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002082s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000255s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001084s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000234s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:27:54+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.169709s] [吞吐率：5.89req/s] [内存消耗：3,106.02kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002748s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002770s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000600s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375592',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000975s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000357s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T00:28:14+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.460124s] [吞吐率：2.17req/s] [内存消耗：3,106.02kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004077s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004114s ]
+[ info ] [ LANG ] J:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000530s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=esprjspbpmqtvqlguihm2gbsa7',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '0fbdda168ab4477500bff6c08897e4d9',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001863s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000717s ]
+[ info ] [ LANG ] J:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ J:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:20:18+08:00 ] 127.0.0.1 GET www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.397639s] [吞吐率：2.51req/s] [内存消耗：3,332.08kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000178s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008279s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008308s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001862s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004696s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.001172s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\code\gongzheng\public/../application/index\view\order\orderform.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:20:27+08:00 ] 127.0.0.1 GET www.gongzheng.cc/index/ajax/lang?callback=define&controllername=order&v=1601796018
+[运行时间：0.046518s] [吞吐率：21.50req/s] [内存消耗：2,430.47kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002030s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002053s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order',
+  'v' => '1601796018',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000886s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000241s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ I:\code\gongzheng\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:21:06+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：15.128319s] [吞吐率：0.07req/s] [内存消耗：3,092.24kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004782s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004822s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000625s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002280s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000555s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:21:29+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.191106s] [吞吐率：5.23req/s] [内存消耗：3,092.37kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002016s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002035s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000261s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '804',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000894s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000226s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:21:47+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.224800s] [吞吐率：4.45req/s] [内存消耗：3,106.15kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002041s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '804',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001163s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000215s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:22:07+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.175027s] [吞吐率：5.71req/s] [内存消耗：3,106.15kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002003s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002024s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000244s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '804',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000924s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000275s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:22:39+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：12.104465s] [吞吐率：0.08req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002267s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002288s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000499s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '804',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001192s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.004785s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:22:55+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.169343s] [吞吐率：5.91req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001980s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '803',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '41052119920506851',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000889s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000278s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:23:32+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：20.065516s] [吞吐率：0.05req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002033s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002055s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000317s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '803',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '41052119920506851',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001129s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000329s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:24:05+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：2.898744s] [吞吐率：0.34req/s] [内存消耗：3,122.20kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005387s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005435s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000726s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '803',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '41052119920506851',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003609s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000635s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:24:40+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：22.741270s] [吞吐率：0.04req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004150s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004192s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000970s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '803',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '41052119920506851',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002058s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000622s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:24:58+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.191145s] [吞吐率：5.23req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002345s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002368s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000288s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '803',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '41052119920506851',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001624s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000244s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:25:31+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：13.910977s] [吞吐率：0.07req/s] [内存消耗：3,122.19kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004804s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004842s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000622s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '804',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '679ee4ac1696414a26648095c2fbf641',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职11',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068510',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002082s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000292s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:26:54+08:00 ] 127.0.0.1 GET www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：4.676778s] [吞吐率：0.21req/s] [内存消耗：3,329.51kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002637s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002658s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000360s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001190s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000247s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\code\gongzheng\public/../application/index\view\order\orderform.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:26:54+08:00 ] 127.0.0.1 GET www.gongzheng.cc/index/ajax/lang?callback=define&controllername=order&v=1601796412
+[运行时间：0.036809s] [吞吐率：27.17req/s] [内存消耗：2,430.47kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001768s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001785s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000273s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order',
+  'v' => '1601796412',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000917s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000263s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ I:\code\gongzheng\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:27:44+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.563458s] [吞吐率：1.77req/s] [内存消耗：3,105.96kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002304s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002324s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000246s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '787',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e3e4592a7f5353d11a827ff684a2916b',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '41052119920506',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '4105211',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000911s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000202s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:28:01+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.410520s] [吞吐率：0.71req/s] [内存消耗：3,105.96kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006126s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006187s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000736s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '791',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e3e4592a7f5353d11a827ff684a2916b',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '4105211',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002761s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000626s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:28:14+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.916946s] [吞吐率：1.09req/s] [内存消耗：3,122.06kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001934s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001954s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000254s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e3e4592a7f5353d11a827ff684a2916b',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000881s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000219s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:29:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.193068s] [吞吐率：5.18req/s] [内存消耗：3,126.35kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002092s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002113s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000321s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e3e4592a7f5353d11a827ff684a2916b',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000997s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000254s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:30:03+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.696978s] [吞吐率：0.59req/s] [内存消耗：3,162.20kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004873s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004917s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000789s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '800',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'e3e4592a7f5353d11a827ff684a2916b',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '4105211992050685',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002778s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000594s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:30:29+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.222969s] [吞吐率：4.48req/s] [内存消耗：3,162.20kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002577s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002628s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000445s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '800',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '5418af2f5da643e001bf68902afb354d',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '4105211992050685',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000977s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000251s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T15:33:37+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：4.697813s] [吞吐率：0.21req/s] [内存消耗：3,207.09kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007815s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007864s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000776s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002146s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000361s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: result[I:\code\gongzheng\application\index\controller\Order.php:91]
+---------------------------------------------------------------
+[ 2020-10-04T15:34:24+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.641880s] [吞吐率：0.61req/s] [内存消耗：3,128.39kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001910s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001930s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000289s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000901s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000240s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:22:42+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.846164s] [吞吐率：0.54req/s] [内存消耗：3,176.28kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.019027s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019103s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003452s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009525s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.001414s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[I:\code\gongzheng\application\index\controller\Order.php:35]
+---------------------------------------------------------------
+[ 2020-10-04T16:23:04+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.765486s] [吞吐率：0.57req/s] [内存消耗：3,163.02kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003419s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003453s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000576s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001626s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000401s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:26:29+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.293795s] [吞吐率：3.40req/s] [内存消耗：3,162.98kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002613s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002641s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000627s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001140s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000377s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:27:00+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.194081s] [吞吐率：5.15req/s] [内存消耗：3,174.00kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002064s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002084s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000257s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000943s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000260s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:27:36+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.217472s] [吞吐率：4.60req/s] [内存消耗：3,174.00kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003943s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003978s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000307s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000940s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000227s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:28:17+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.107715s] [吞吐率：0.90req/s] [内存消耗：3,129.65kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007305s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007380s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000967s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003435s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000324s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T16:30:15+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：4.812994s] [吞吐率：0.21req/s] [内存消耗：3,170.00kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003198s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003225s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000578s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001948s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000366s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T18:41:13+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.965027s] [吞吐率：0.51req/s] [内存消耗：3,170.05kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000105s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008200s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008230s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001287s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002906s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000858s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T18:42:49+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：4.761806s] [吞吐率：0.21req/s] [内存消耗：3,214.75kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005620s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005664s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000670s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002536s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.001197s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]数据表字段不存在:[__token__][I:\code\gongzheng\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2020-10-04T18:43:28+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：1.700975s] [吞吐率：0.59req/s] [内存消耗：3,133.24kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005635s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005694s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000826s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002712s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000708s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T18:44:31+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.371722s] [吞吐率：2.69req/s] [内存消耗：3,170.05kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001890s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001916s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000920s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000321s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-04T18:45:42+08:00 ] 127.0.0.1 POST www.gongzheng.cc/index/order/orderform/msg/p9hY
+[运行时间：0.424265s] [吞吐率：2.36req/s] [内存消耗：3,170.05kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002156s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002175s ]
+[ info ] [ LANG ] I:\code\gongzheng\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000390s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=vfg533lgoe457m27bsd7id5fd1',
+  'referer' => 'http://www.gongzheng.cc/index/order/orderform/msg/p9hY',
+  'connection' => 'close',
+  'origin' => 'http://www.gongzheng.cc',
+  'content-length' => '802',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
+  'host' => 'www.gongzheng.cc',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9c0c39fbc7c9eba733bd2ca33dd01c0a',
+  'row1' => 
+  array (
+    'j_orginid' => '1',
+    'j_types' => '企业',
+    'j_subname' => '1',
+    'j_enterinfo' => '1',
+    'j_realname' => '离职',
+    'j_idnumber' => '410521199205068516',
+    'j_mobile' => '18336375594',
+    'j_email' => '764774271@qq.com',
+    'j_address' => '1',
+    'j_management' => '离职',
+    'j_manageid' => '410521199205068516',
+    'j_position' => '1',
+  ),
+  'row2' => 
+  array (
+    'y_orginid' => '1',
+    'y_types' => '企业',
+    'y_subname' => '1',
+    'y_enterinfo' => '1',
+    'y_realname' => '离职',
+    'y_idnumber' => '410521199205068516',
+    'y_mobile' => '18336375594',
+    'y_email' => '764774271@qq.com',
+    'y_address' => '1',
+    'y_management' => '离职',
+    'y_manageid' => '410521199205068516',
+    'y_position' => '1',
+  ),
+  'msg' => 'p9hY',
+)
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001120s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000316s ]
+[ info ] [ LANG ] I:\code\gongzheng\public/../application/index/lang/zh-cn/order.php
+[ info ] [ RUN ] app\index\controller\Order->orderform[ I:\code\gongzheng\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

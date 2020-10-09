@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'shenzheng can not be empty'                => '身份证正面不能为空',
+    'shenzheng illegal file'                    => '身份证正面非法图片',
+    'shenzheng must be a picture file'          => '身份证正面必须是图片文件',
+    'shenzheng the suffix error'                => '身份证正面图片格式错误',
+    'shenzheng can not be greater than 1024M'   => '身份证正面图片大小不能大于1024M',
+    'shenfan can not be empty'                  => '身份证反面图片不能为空',
+    'shenfan illegal file'                      => '身份证反面非法图片',
+    'shenfan must be a picture file'            => '身份证反面必须是图片文件',
+    'shenfan the suffix error'                  => '身份证反面图片格式错误',
+    'shenfan can not be greater than 1024M'     => '身份证反面图片大小不能大于1024M',
+    'license can not be empty'                  => '营业执照图片不能为空',
+    'license illegal file'                      => '营业执照非法图片',
+    'license must be a picture file'            => '营业执照必须是图片文件',
+    'license the suffix error'                  => '营业执照图片格式错误',
+    'license can not be greater than 1024M'     => '营业执照图片大小不能大于1024M',
+    'screenshots can not be empty'              => '微信公众号截图不能为空',
+    'screenshots illegal file'                  => '微信公众号截图非法图片',
+    'screenshots must be a picture file'        => '微信公众号截图必须是图片文件',
+    'screenshots the suffix error'              => '微信公众号截图格式错误',
+    'screenshots can not be greater than 1024M' => '微信公众号截图大小不能大于1024M',
+    'poweratt can not be empty'                 => '授权委托书图片不能为空',
+    'poweratt illegal file'                     => '授权委托书非法图片',
+    'poweratt must be a picture file'           => '授权委托书必须是图片文件',
+    'poweratt the suffix error'                 => '授权委托书图片格式错误',
+    'poweratt can not be greater than 1024M'    => '授权委托书图片大小不能大于1024M',
+];
+

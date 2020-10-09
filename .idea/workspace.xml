@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b2fb4dc-dff2-45dc-b4ea-67e6d9583c7e" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-27第一次对功能.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/model/dingdan/OrderWeiqyJia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/model/dingdan/OrderWeiqyYi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/index/lang/zh-cn/orderform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/index/validate/OrderForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202009/1601474922-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202009/1601477953-30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202009/30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202010/01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202010/02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202010/03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202010/04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202010/06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/0e985901a39a8881f3418527b7e1b264.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/2f04741af0f3b383b008d3974983e8e0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/2feef2a741952e1297d983b1c50b54dd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/56a692741717aff5bcffbf5f98f3b162.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5dfa8c1207396e35252b3ab60e77be76.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/712817698e6f9235e859d723bca44f8f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/7e35ec73be549f4a4a02ab58cfeb3721.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/98f25495240fd5b193563e29902e45af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/aee06898f5a34420f295192023b6c12b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/cdd84002186693eac38a9ba4d8ddacc6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/ddb9754c2e53a285cf4c7be2ed56f33c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a26c8c40-b222-4c34-afcc-726532f2bf01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a26c8c40-b222-4c34-afcc-726532f2bf01/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gongzheng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gongzheng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/dingdan/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/dingdan/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/lang/zh-cn/order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/order/orderform.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/order/orderupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderupload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/frontend/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/frontend/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/9803779dc00170de779a1aaf0d2767e5.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/9803779dc00170de779a1aaf0d2767e5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/d7e566aaf60ba76ed8f71c4fa12eff31.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/d7e566aaf60ba76ed8f71c4fa12eff31.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/pinyin" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iP1SJM37nV8S86gp9iZuIhkROz" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b2fb4dc-dff2-45dc-b4ea-67e6d9583c7e" name="默认的" comment="" />
+      <created>1601794412978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601794412978</updated>
+      <workItem from="1601794414383" duration="6111000" />
+      <workItem from="1601949737550" duration="884000" />
+      <workItem from="1601957845124" duration="15710000" />
+      <workItem from="1602138029910" duration="9831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="729" y="379" key="#Composer" timestamp="1601794470104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="729" y="379" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1601794470104" />
+    <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601799375286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601799375286" />
+    <state x="679" y="191" key="NewPhpClassDialog" timestamp="1602151458280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="191" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602151458280" />
+    <state x="760" y="427" key="NewPhpFileDialog" timestamp="1602151465964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="427" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602151465964" />
+    <state x="590" y="188" width="739" height="664" key="find.popup" timestamp="1602148153242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="188" width="739" height="664" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602148153242" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1602141389372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602141389372" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1602141311854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602141311854" />
+  </component>
+</project>

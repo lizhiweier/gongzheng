@@ -142,7 +142,7 @@ class Order extends Backend
             }
             if ($result !== false) {
                 //数据更新成功，调起支付
-                $this->wchat($gid,$params['pay_method'],$orderid);
+                $this->pay($gid,$params['pay_method'],$orderid);
             } else {
                 $this->error(__('No rows were inserted'));
             }
@@ -152,12 +152,12 @@ class Order extends Backend
     }
 
     /**
-     * 微信支付
+     * 支付
      * $gid 业务所属ID
      * $type 支付类型
      * $orderid 订单号
      */
-    public function wchat($gid,$type,$orderid){
+    public function pay($gid,$type,$orderid){
         //业务信息
         $orderGlModel = model('orderGl');
         $orderGlInfo = $orderGlModel->field('price,name') ->where('id',$gid) -> find();
@@ -224,7 +224,7 @@ class Order extends Backend
     }
 
     /*
-     * 生成随机4位字符的订单随机数
+     * 生成随机6位字符的订单随机数
      */
     public function GetRandStr()
     {

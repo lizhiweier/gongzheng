@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"J:\code\gongzheng\public/../application/index\view\order\orderform.html";i:1601095758;s:59:"J:\code\gongzheng\application\index\view\common\script.html";i:1588765311;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"J:\code\gongzheng\public/../application/index\view\order\orderform.html";i:1601694003;s:59:"J:\code\gongzheng\application\index\view\common\script.html";i:1588765311;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -75,13 +75,13 @@
                                 <label for="c-j_types" class="control-label col-xs-12 col-sm-2 is-required control-label">申请主体类型：</label>
                                 <div class="col-xs-12 col-sm-9">
                                     <label class="checkbox-inline">
-                                        <input id="c-j_types" data-rule="" name="row1[j_types]" type="radio" value="个人" >&nbsp;个人&nbsp;
+                                        <input id="c-j_types" data-rule="required" name="row1[j_types]" type="radio" value="个人" >&nbsp;个人&nbsp;
                                     </label>
                                     <label class="checkbox-inline">
-                                        <input id="c-j_types" data-rule="" name="row1[j_types]" type="radio" value="企业" checked>&nbsp;企业&nbsp;
+                                        <input id="c-j_types" data-rule="required" name="row1[j_types]" type="radio" value="企业" checked>&nbsp;企业&nbsp;
                                     </label>
                                     <label class="checkbox-inline">
-                                        <input id="c-j_types" data-rule="" name="row1[j_types]" type="radio" value="个体" >&nbsp;个体&nbsp;
+                                        <input id="c-j_types" data-rule="required" name="row1[j_types]" type="radio" value="个体" >&nbsp;个体&nbsp;
                                     </label>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                             <div class="form-group form-group-lg">
                                 <label for="c-j_realname" class="control-label col-xs-12 col-sm-2 is-required control-label">姓名：</label>
                                 <div class="col-xs-12 col-sm-9">
-                                    <input id="c-j_realname" data-rule="required" class="form-control input-lg" name="row1[j_realname]" type="text" value="" placeholder="请输入法人/个人姓名">
+                                    <input id="c-j_realname" data-rule="required;length(2~5)" class="form-control input-lg" name="row1[j_realname]" type="text" value="" placeholder="请输入法人/个人姓名">
                                 </div>
                             </div>
                             <div class="form-group form-group-lg">
@@ -109,7 +109,7 @@
                                     <input id="c-j_idnumber" data-rule="required;IDcard" class="form-control input-lg" name="row1[j_idnumber]" type="text" value="" placeholder="请输入身份证号码">
                                 </div>
                             </div>
-                            <div class="form-group form-group-lg">
+                            <!--<div class="form-group form-group-lg">
                                 <label for="c-j_sex" class="control-label col-xs-12 col-sm-2 is-required control-label">性别：</label>
                                 <div class="col-xs-12 col-sm-9">
                                     <label class="checkbox-inline">
@@ -125,7 +125,7 @@
                                 <div class="col-xs-12 col-sm-9">
                                     <input id="c-j_birthday" data-date-format="YYYY-MM-DD" data-rule="required" class="form-control datetimepicker input-lg" name="row1[j_birthday]" type="datetime" value="" placeholder="请输入出生日期，格式为yyyy-mm-dd">
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="form-group form-group-lg">
                                 <label for="c-j_mobile" class="control-label col-xs-12 col-sm-2 is-required control-label">手机号码：</label>
                                 <div class="col-xs-12 col-sm-9">
@@ -147,7 +147,7 @@
                             <div class="form-group form-group-lg">
                                 <label for="c-j_management" class="control-label col-xs-12 col-sm-2 is-required control-label">账号管理员：</label>
                                 <div class="col-xs-12 col-sm-9">
-                                    <input id="c-j_management" data-rule="required" class="form-control input-lg" name="row1[j_management]" type="text" value="" placeholder="请输入扫码管理员姓名">
+                                    <input id="c-j_management" data-rule="required;length(2~5)" class="form-control input-lg" name="row1[j_management]" type="text" value="" placeholder="请输入扫码管理员姓名">
                                 </div>
                             </div>
                             <div class="form-group form-group-lg">
@@ -182,13 +182,13 @@
                                     <label for="c-y_types" class="control-label col-xs-12 col-sm-2 is-required control-label">申请主体类型：</label>
                                     <div class="col-xs-12 col-sm-9">
                                         <label class="checkbox-inline">
-                                            <input id="c-y_types" data-rule="" name="row2[y_types]" type="radio" value="个人" >&nbsp;个人&nbsp;
+                                            <input id="c-y_types" data-rule="required" name="row2[y_types]" type="radio" value="个人" >&nbsp;个人&nbsp;
                                         </label>
                                         <label class="checkbox-inline">
-                                            <input id="c-y_types" data-rule="" name="row2[y_types]" type="radio" value="企业" checked>&nbsp;企业&nbsp;
+                                            <input id="c-y_types" data-rule="required" name="row2[y_types]" type="radio" value="企业" checked>&nbsp;企业&nbsp;
                                         </label>
                                         <label class="checkbox-inline">
-                                            <input id="c-y_types" data-rule="" name="row2[y_types]" type="radio" value="个体" >&nbsp;个体&nbsp;
+                                            <input id="c-y_types" data-rule="required" name="row2[y_types]" type="radio" value="个体" >&nbsp;个体&nbsp;
                                         </label>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                                 <div class="form-group form-group-lg">
                                     <label for="c-y_realname" class="control-label col-xs-12 col-sm-2 is-required control-label">姓名：</label>
                                     <div class="col-xs-12 col-sm-9">
-                                        <input id="c-y_realname" data-rule="required" class="form-control input-lg" name="row2[y_realname]" type="text" value="" placeholder="请输入法人/个人姓名">
+                                        <input id="c-y_realname" data-rule="required;length(2~5)" class="form-control input-lg" name="row2[y_realname]" type="text" value="" placeholder="请输入法人/个人姓名">
                                     </div>
                                 </div>
                                 <div class="form-group form-group-lg">
@@ -216,7 +216,7 @@
                                         <input id="c-y_idnumber" data-rule="required;IDcard" class="form-control input-lg" name="row2[y_idnumber]" type="text" value="" placeholder="请输入身份证号码">
                                     </div>
                                 </div>
-                                <div class="form-group form-group-lg">
+                               <!-- <div class="form-group form-group-lg">
                                     <label for="c-y_sex" class="control-label col-xs-12 col-sm-2 is-required control-label">性别：</label>
                                     <div class="col-xs-12 col-sm-9">
                                         <label class="checkbox-inline">
@@ -232,7 +232,7 @@
                                     <div class="col-xs-12 col-sm-9">
                                         <input id="c-y_birthday" data-date-format="YYYY-MM-DD" data-rule="required" class="form-control datetimepicker input-lg" name="row2[y_birthday]" type="datetime" value="" placeholder="请输入出生日期，格式为yyyy-mm-dd">
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="form-group form-group-lg">
                                     <label for="c-y_mobile" class="control-label col-xs-12 col-sm-2 is-required control-label">手机号码：</label>
                                     <div class="col-xs-12 col-sm-9">
@@ -254,7 +254,7 @@
                                 <div class="form-group form-group-lg">
                                     <label for="c-y_management" class="control-label col-xs-12 col-sm-2 is-required control-label">账号管理员：</label>
                                     <div class="col-xs-12 col-sm-9">
-                                        <input id="c-y_management" data-rule="required" class="form-control input-lg" name="row2[y_management]" type="text" value="" placeholder="请输入扫码管理员姓名">
+                                        <input id="c-y_management" data-rule="required;length(2~5)" class="form-control input-lg" name="row2[y_management]" type="text" value="" placeholder="请输入扫码管理员姓名">
                                     </div>
                                 </div>
                                 <div class="form-group form-group-lg">
