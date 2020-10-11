@@ -54,9 +54,9 @@ define(['jquery', 'bootstrap', 'frontend', 'form', 'template'], function ($, und
 
             //为表单绑定事件
             Form.api.bindevent($("#register-form"), function (data, ret) {
-                setTimeout(function () {
+                /*setTimeout(function () {
                     location.href = ret.url ? ret.url : "/";
-                }, 1000);
+                }, 1000);*/
             }, function (data) {
                 $("input[name=captcha]").next(".input-group-addon").find("img").trigger("click");
             });

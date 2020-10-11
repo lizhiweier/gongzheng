@@ -15,19 +15,24 @@ use think\exception\ValidateException;
  */
 class Order extends Backend
 {
-    
+
     /**
      * Order模型对象
      * @var \app\admin\model\dingdan\Order
      */
     protected $model = null;
+    /**
+     * 无需鉴权的方法,但需要登录
+     * @var array
+     */
+    protected $noNeedRight = ['certiInfo'];
 
     public function _initialize()
     {
         parent::_initialize();
         $this->model = new \app\admin\model\dingdan\Order;
         $this->view->assign("isErtificationList", $this->model->getIsErtificationList());
-        $this->view->assign("sourceList", $this->model->getSourceList());
+        $this->view->assign("payMethodList", $this->model->getPayMethodList());
         $this->view->assign("statusList", $this->model->getStatusList());
     }
     
@@ -44,7 +49,7 @@ class Order extends Backend
     public function index()
     {
         //当前是否为关联查询
-        $this->relationSearch = false;
+        $this->relationSearch = true;
         //设置过滤方法
         $this->request->filter(['strip_tags', 'trim']);
         if ($this->request->isAjax())
@@ -56,29 +61,40 @@ class Order extends Backend
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
             $total = $this->model
-                    
-                    ->where($where)
-                    ->order($sort, $order)
-                    ->count();
+                ->with(['ordergl'])
+                ->where($where)
+                ->order($sort, $order)
+                ->count();
 
             $list = $this->model
-                    
-                    ->where($where)
-                    ->order($sort, $order)
-                    ->limit($offset, $limit)
-                    ->select();
+                ->with(['ordergl'])
+                ->where($where)
+                ->order($sort, $order)
+                ->limit($offset, $limit)
+                ->select();
 
             foreach ($list as $row) {
-                $row->visible(['numbering','gl_id','matter','country','notary','channel','source','price','contname','mobile','pay_method','status','remarks','createtime']);
-                
+                $row->visible(['id','numbering','gl_id','notary','cont_name','mobile','remark','channel','price','pay_method','status','createtime']);
+                $row->visible(['ordergl']);
+                $row->getRelation('ordergl')->visible(['name']);
             }
             $list = collection($list)->toArray();
             $result = array("total" => $total, "rows" => $list);
-
+//            dump($result);die;
             return json($result);
         }
         return $this->view->fetch();
     }
+
+    /*
+     * 订单详情，查看订单
+     */
+    public function orderInfo(){
+        $id = input('ids');
+        dump($id);die;
+        return $this->view->fetch();
+    }
+
 
     /**
      * 联系人信息填写
@@ -185,6 +201,9 @@ class Order extends Backend
         \addons\epay\library\Service::submitOrder($params);
     }
 
+    /*
+     * 支付回调
+     */
     public function notifywx(){
         $paytype = $this->request->param('paytype');
         $pay = \addons\epay\library\Service::checkNotify($paytype);
@@ -219,8 +238,19 @@ class Order extends Backend
         echo $pay->success();
     }
 
+    /*
+     * 支付成功
+     */
     public function paysuccess(){
         return $this->view->fetch();
+    }
+
+    /*
+     * 列表页继续付款
+     */
+    public function listcontpay(){
+        $id = input('ids');
+        dump($id);die;
     }
 
     /*

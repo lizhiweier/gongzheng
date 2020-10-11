@@ -18,7 +18,11 @@ define(['jquery', 'bootstrap', 'frontend', 'form'], function ($, undefined, Fron
 
         },
         orderupload: function () {
-            Form.api.bindevent($("#wupload-form"));
+            Form.api.bindevent($("#wupload-form"), function (data, ret) {
+                setTimeout(function () {
+                    location.href = ret.url ? ret.url : "/";
+                }, 1000);
+            });
         }
     };
     return Controller;

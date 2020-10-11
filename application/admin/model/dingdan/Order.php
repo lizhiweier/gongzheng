@@ -26,7 +26,7 @@ class Order extends Model
     // 追加属性
     protected $append = [
         'is_ertification_text',
-        'source_text',
+        'pay_method_text',
         'status_text'
     ];
     
@@ -37,14 +37,14 @@ class Order extends Model
         return ['是' => __('是'), '否' => __('否')];
     }
 
-    public function getSourceList()
+    public function getPayMethodList()
     {
-        return ['个人' => __('个人'), '企业' => __('企业'), '个体' => __('个体')];
+        return ['wechat' => __('Wechat'), 'alipay' => __('Alipay')];
     }
 
     public function getStatusList()
     {
-        return ['0' => __('Status 0'), '1' => __('Status 1'), '2' => __('Status 2')];
+        return ['0' => __('Status 0'), '1' => __('Status 1'), '2' => __('Status 2'), '3' => __('Status 3'), '4' => __('Status 4')];
     }
 
 
@@ -56,10 +56,10 @@ class Order extends Model
     }
 
 
-    public function getSourceTextAttr($value, $data)
+    public function getPayMethodTextAttr($value, $data)
     {
-        $value = $value ? $value : (isset($data['source']) ? $data['source'] : '');
-        $list = $this->getSourceList();
+        $value = $value ? $value : (isset($data['pay_method']) ? $data['pay_method'] : '');
+        $list = $this->getPayMethodList();
         return isset($list[$value]) ? $list[$value] : '';
     }
 
@@ -74,4 +74,8 @@ class Order extends Model
 
 
 
+    public function ordergl()
+    {
+        return $this->belongsTo('app\admin\model\OrderGl', 'gl_id', 'Id', [], 'LEFT')->setEagerlyType(0);
+    }
 }

@@ -2,49 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2fb4dc-dff2-45dc-b4ea-67e6d9583c7e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-27第一次对功能.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/model/dingdan/OrderWeiqyJia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/admin/model/dingdan/OrderWeiqyYi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/lang/zh-cn/orderform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/index/validate/OrderForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202009/1601474922-30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202009/1601477953-30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202009/30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202010/01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202010/02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202010/03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202010/04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/log/202010/06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/0e985901a39a8881f3418527b7e1b264.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/2f04741af0f3b383b008d3974983e8e0.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/2feef2a741952e1297d983b1c50b54dd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/56a692741717aff5bcffbf5f98f3b162.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/5dfa8c1207396e35252b3ab60e77be76.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/712817698e6f9235e859d723bca44f8f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/7e35ec73be549f4a4a02ab58cfeb3721.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/98f25495240fd5b193563e29902e45af.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/aee06898f5a34420f295192023b6c12b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/cdd84002186693eac38a9ba4d8ddacc6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime/temp/ddb9754c2e53a285cf4c7be2ed56f33c.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a26c8c40-b222-4c34-afcc-726532f2bf01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a26c8c40-b222-4c34-afcc-726532f2bf01/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gongzheng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gongzheng.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/admin/controller/dingdan/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/dingdan/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/dingdan/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/dingdan/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/model/dingdan/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/model/dingdan/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/dingdan/order/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/dingdan/order/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/dingdan/order/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/dingdan/order/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/lang/zh-cn/order.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/order/orderform.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/validate/OrderUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/validate/OrderUpload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/order/orderinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/order/orderupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderupload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/backend/dingdan/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/backend/dingdan/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/frontend/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/frontend/order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/9803779dc00170de779a1aaf0d2767e5.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/9803779dc00170de779a1aaf0d2767e5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/d7e566aaf60ba76ed8f71c4fa12eff31.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/d7e566aaf60ba76ed8f71c4fa12eff31.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/frontend/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/frontend/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/2923dd04bf28fa611f68689c8940b128.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/2923dd04bf28fa611f68689c8940b128.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +81,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -124,6 +96,11 @@
       <workItem from="1601949737550" duration="884000" />
       <workItem from="1601957845124" duration="15710000" />
       <workItem from="1602138029910" duration="9831000" />
+      <workItem from="1602244855933" duration="5306000" />
+      <workItem from="1602255949165" duration="417000" />
+      <workItem from="1602292817735" duration="11844000" />
+      <workItem from="1602319510498" duration="9042000" />
+      <workItem from="1602386470602" duration="6273000" />
     </task>
     <servers />
   </component>
@@ -135,6 +112,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="379" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1601794470104" />
+    <state x="139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602319530637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="139" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602319530637" />
     <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601799375286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,21 +124,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="191" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602151458280" />
-    <state x="760" y="427" key="NewPhpFileDialog" timestamp="1602151465964">
+    <state x="459" y="435" key="NewPhpFileDialog" timestamp="1602256349526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="427" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602151465964" />
-    <state x="590" y="188" width="739" height="664" key="find.popup" timestamp="1602148153242">
+    <state x="459" y="435" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602256349526" />
+    <state x="1078" y="211" width="739" height="664" key="find.popup" timestamp="1602410141635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="590" y="188" width="739" height="664" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602148153242" />
-    <state x="532" y="237" key="run.anything.popup" timestamp="1602141389372">
+    <state x="1078" y="211" width="739" height="664" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602410141635" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1602332146348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602141389372" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1602141311854">
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602332146348" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1602253272867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602141311854" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602253272867" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/application/admin/controller/dingdan/Order.php</url>
+          <line>258</line>
+          <properties>
+            <option name="className" value="\app\admin\controller\dingdan\Order" />
+            <option name="methodName" value="GetRandStr" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

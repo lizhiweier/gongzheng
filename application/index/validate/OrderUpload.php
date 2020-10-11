@@ -10,12 +10,18 @@ class OrderUpload extends Validate
      * 验证规则
      */
     protected $rule = [
+        /*'__token__'     => 'require|token',
+        'shenzheng'     => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1M',
+        'shenfan'       => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1M',
+        'license'       => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1M',
+        'screenshots'   => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1M',
+        'poweratt'      => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1M',*/
         '__token__'     => 'require|token',
-        'shenzheng'     => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1024M',
-        'shenfan'       => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1024M',
-        'license'       => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1024M',
-        'screenshots'   => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1024M',
-        'poweratt'      => 'require|file|image|fileExt:gif,jpg,jpeg,png,bmp|fileSize:1024M',
+        'shenzheng'     => 'require',
+        'shenfan'       => 'require',
+        'license'       => 'require',
+        'screenshots'   => 'require',
+        'poweratt'      => 'require',
     ];
     /**
      * 提示消息

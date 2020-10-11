@@ -25,20 +25,52 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'numbering', title: __('Numbering')},
-                        {field: 'gl_id', title: __('Gl_id')},
-                        {field: 'matter', title: __('Matter')},
-                        {field: 'country', title: __('Country')},
+                        {field: 'ordergl.name', title: __('Ordergl.name')},
                         {field: 'notary', title: __('Notary')},
-                        {field: 'channel', title: __('Channel')},
-                        {field: 'source', title: __('Source'), searchList: {"个人":__('个人'),"企业":__('企业'),"个体":__('个体')}, formatter: Table.api.formatter.normal},
-                        {field: 'price', title: __('Price'), operate:'BETWEEN'},
-                        {field: 'contname', title: __('Contname')},
+                        {field: 'cont_name', title: __('Cont_name')},
                         {field: 'mobile', title: __('Mobile')},
-                        {field: 'pay_method', title: __('Pay_method')},
-                        {field: 'status', title: __('Status'), searchList: {"0":__('Status 0'),"1":__('Status 1'),"2":__('Status 2')}, formatter: Table.api.formatter.status},
-                        {field: 'remarks', title: __('Remarks')},
+                        {field: 'remark', title: __('Remark')},
+                        {field: 'channel', title: __('Channel')},
+                        {field: 'price', title: __('Price'), operate:'BETWEEN'},
+                        {field: 'pay_method', title: __('Pay_method'), searchList: {"wechat":__('Wechat'),"alipay":__('Alipay')}, formatter: Table.api.formatter.normal},
+                        {field: 'status', title: __('Status'), searchList: {"0":__('Status 0'),"1":__('Status 1'),"2":__('Status 2'),"3":__('Status 3'),"4":__('Status 4')}, formatter: Table.api.formatter.status},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
+                        {field: 'operate', title: __('Operate'), table: table, buttons: [
+                                {
+                                    name: 'detail', text: '订单详情', title: '订单详情', icon: 'fa  fa-list', classname: 'btn btn-xs btn-default btn-ajax btn-detail', url: 'dingdan/order/orderInfo/'+{field: 'id'}, refresh: true,
+                                    hidden:function(row){
+                                        if(row.status == 0){
+                                            return true;
+                                        }else if(row.status == 1){
+                                            return false;
+                                        }else if(row.status == 2){
+                                            return false;
+                                        }else if(row.status == 3){
+                                            return false;
+                                        }else if(row.status == 4){
+                                            return false;
+                                        }
+                                    }
+                                },
+                                {
+                                    name: 'pay', text: '继续付款', title: '继续付款', icon: 'fa fa-share', classname: 'btn btn-xs btn-default btn-ajax btn-pay', url: 'dingdan/order/listcontpay/'+{field: 'id'}, refresh: true,
+                                    hidden:function(row){
+                                        if(row.status == 0){
+                                            return false;
+                                        }else if(row.status == 1){
+                                            return true;
+                                        }else if(row.status == 2){
+                                            return true;
+                                        }else if(row.status == 3){
+                                            return true;
+                                        }else if(row.status == 4){
+                                            return true;
+                                        }
+                                    }
+                                }
+                            ],
+                            events: Table.api.events.operate, formatter: Table.api.formatter.operate
+                        }
                     ]
                 ]
             });

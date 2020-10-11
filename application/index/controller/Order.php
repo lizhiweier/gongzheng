@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 
+use app\admin\model\dingdan\OrderWeiqyupJia;
 use app\common\controller\Frontend;
 use app\index\validate\OrderForm;
 use app\index\validate\OrderUpload;
@@ -183,16 +184,17 @@ class Order extends Frontend
                 Lang::load(APP_PATH . $this->request->module() . '/lang/' . $this->request->langset() . '/' . str_replace('.', '/', $this->request->action()) . '.php');
                 $result1 = $validate->scene('add')->check($data1);
                 $result2 = $validate->scene('add')->check($data2);
+//                dump($result1);dump($result1);die;
                 if (!$result1 || !$result2) {
-                    dump($validate->getError());dump($data1);die;
+//                    dump($validate->getError());dump($data1);die;
                     $this->error($validate->getError(), null, ['token' => $this->request->token()]);
                     die;
                 }
                 $result3 = false;
                 $result4 = false;
                 //实例化甲和乙模型，插入数据
-                $modelJia = new \app\admin\model\dingdan\OrderWeiqyJia;
-                $modelYi = new \app\admin\model\dingdan\OrderWeiqyYi;
+                $modelJia = new \app\admin\model\dingdan\OrderWeiqyupJia();
+                $modelYi = new \app\admin\model\dingdan\OrderWeiqyupYi();
                 Db::startTrans();
                 try {
                     $result3 = $modelJia->isUpdate(false)->allowField(true)->save($data1);
@@ -211,9 +213,10 @@ class Order extends Frontend
                 if ($result3 !== false && $result4 !== false) {
 //                    dump($data1);dump($data2);die;
                     $orderModel = new \app\admin\model\dingdan\Order();
-                    $orderModel->isUpdate(true)->save(['status'=>'2'],['id'=>$orderInfo['id']]);
-                    $url = $this->request->root(true).url("/index/order/orderupload/msg/$randstr");
+                    $orderModel->isUpdate(true)->save(['status'=>'3'],['id'=>$orderInfo['id']]);
+                    $url = $this->request->root(true).url("/index/order/orderinfo/msg/$randstr/message/已提交审核");
                     $this->success('操作成功！！！！！', $url);
+
                 } else {
                     $this->error(__('No rows were inserted'));
                 }
@@ -239,16 +242,24 @@ class Order extends Frontend
     //订单信息页
     public function orderinfo(){
         $data = input();
+//        dump($data);die;
         if(empty($data)){
             $this->redirect('msgerror',['message'=>'您的上传资料链接有误！请联系管理员......']);
         }
+        if(!isset($data['link'])){
+            $data['link'] = '';
+        }else{
+            $data['link'] = '/index/order/'.$data['link'].'/msg/'.$data['msg'];
+        }
 //        dump($data);die;
-        $info = $this->orderData($data['randstr']);
+        $info = $this->orderData($data['msg']);
         $info = $info->toArray();
         $name = $this->orderGl($info['gl_id']);
         $this->assign('name',$name['name']);
         $this->assign('info',$info);
-        $this->assign('data',$data);
+        $this->assign('link',$data['link']);
+        $this->assign('message',$data['message']);
+//        dump($data);die;
 
         return $this->view->fetch();
     }
@@ -278,14 +289,14 @@ class Order extends Frontend
             $data['url'] = 'msgerror';
             return $data;*/
         }else if($status == 1){
-            $this->redirect('orderinfo',['message'=>'上传资料','link'=>'orderform','randstr'=>$randstr]);
+            $this->redirect('orderinfo',['message'=>'上传资料','link'=>'orderform','msg'=>$randstr]);
             die;
             /*$data['message'] = '上传资料';
             $data['link'] = 'orderform';
             $data['url'] = 'orderinfo';*/
             return $data;
         }else if($status == 2){
-            $this->redirect('orderinfo',['message'=>'上传资料','link'=>'orderupload','randstr'=>$randstr]);
+            $this->redirect('orderinfo',['message'=>'上传资料','link'=>'orderupload','msg'=>$randstr]);
             die;
             /*$data['message'] = '上传资料';
             $data['link'] = 'orderupload';
